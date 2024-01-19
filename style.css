@@ -1,6 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/libre-baskerville');
 @import url('https://fonts.cdnfonts.com/css/league-spartan');
 
+* {
+  transition: all 0.4s ease-in-out;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -41,7 +45,6 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 #headImg {
@@ -49,6 +52,7 @@ body {
   height: 100vh;
   margin-top: -15rem;
   filter: brightness(0.8) blur(2px);
+  transition: all 0s ease-in-out;
 }
 
 #headContainer h3, #titleContainer {
@@ -149,4 +153,20 @@ body {
 
 #gameSpacer {
   width: 10rem;
+}
+
+.gameCorrect {
+  border: 5px solid #283618;
+  background-color: #606C38;
+  color:#FEFAE0;
+  opacity: 0.5;
+  transform: scale(0.8);
+}
+
+.gameIncorrect {
+  border: 5px solid #BC6C25;
+  background-color: #DDA15E;
+  color:#FEFAE0;
+  opacity: 1;
+  transform: scale(1.1);
 }
