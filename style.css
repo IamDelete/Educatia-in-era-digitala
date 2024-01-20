@@ -10,6 +10,17 @@ body {
   background-color: #FEFAE0;
 }
 
+p {
+  font-family: "League Spartan";
+  font-size: 0.7vw;
+  font-weight: 530;
+}
+
+h1 {
+  font-family: "League Spartan";
+}
+
+
 ::-webkit-scrollbar {
   width: 12px;
 }
@@ -37,9 +48,9 @@ body {
 
 #headContainer {
   width: 100dvw;
-  height: 35rem;
+  height: 60rem;
   overflow: hidden;
-  margin: 0;
+  margin-top: 0;
   padding: 0;
   border: 0;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
@@ -52,7 +63,8 @@ body {
   filter: brightness(0.8) blur(2px);
 }
 
-#headContainer h3, #titleContainer {
+#headContainer h3,
+#titleContainer {
   position: absolute;
   color: #FEFAE0;
   z-index: 1;
@@ -63,7 +75,7 @@ body {
   display: flex;
   justify-content: center;
   border: 3px #FEFAE0 solid;
-  width: 50rem;
+  width: 40rem;
   height: 10rem;
   left: 0;
   right: 0;
@@ -90,4 +102,65 @@ body {
 #welcome {
   font-family: 'libre baskerville';
   font-style: italic;
+}
+
+.doubleContainer {
+  display: flex;
+}
+
+.doubleContainerVideos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_container {
+  margin: 40px;
+  margin-bottom: 0px;
+  border-color: #DDA15E;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 20px;
+
+
+  padding: 40px;
+  line-height: 1.7;
+
+  transition: transform 0.5s ease;
+
+}
+
+.funContainer {
+  border-color: #DDA15E;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 20px;
+
+  max-width: 300px;
+  padding: 20px;
+  margin: 40px;
+  transition: transform 0.5s ease;
+}
+
+.funContainer:hover {
+  transform: scale(1.2);
+}
+
+.text_container:hover {
+  transform: scale(1.05);
+}
+
+.Youtubevideo {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 40px;
+
+  width: 50vw;
+  height: 40vh;
+
+}
+
+.IntructionText {
+  font-family: "League Spartan";
+
 }
