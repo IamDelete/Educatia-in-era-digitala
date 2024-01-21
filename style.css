@@ -166,6 +166,7 @@ h1 {
 .IntructionText {
   font-family: "League Spartan";
   font-size: 70px;
+  margin-top: 100px;
   margin-left: 40px;
 }
 
@@ -208,6 +209,7 @@ h1 {
 #pozaIcoana {
   margin: 60px;
 }
+
 #gameContainer {
   margin-top: 1rem;
   width: 100vw;
@@ -229,12 +231,12 @@ h1 {
 #gameTitle {
   font-family: 'libre baskerville';
   font-weight: bolder;
-  color:#283618;
+  color: #283618;
   font-size: 2.6rem;
 }
 
 #gameBorder {
-  border: 4px #BC6C25 solid;
+
   width: 70rem;
   height: 20rem;
   display: flex;
@@ -245,7 +247,7 @@ h1 {
 
 .gameBox {
   width: 25rem;
-  height: 3rem;
+
   text-align: center;
   font-family: "League Spartan";
   font-size: 2rem;
@@ -256,7 +258,8 @@ h1 {
   border-radius: 20px;
 }
 
-#gameColumnA, #gameColumnB {
+#gameColumnA,
+#gameColumnB {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -271,7 +274,7 @@ h1 {
 .gameCorrect {
   border: 5px solid #283618;
   background-color: #606C38;
-  color:#FEFAE0;
+  color: #FEFAE0;
   opacity: 0.5;
   transform: scale(0.8);
 }
@@ -279,7 +282,7 @@ h1 {
 .gameIncorrect {
   border: 5px solid #BC6C25;
   background-color: #DDA15E;
-  color:#FEFAE0;
+  color: #FEFAE0;
   opacity: 1;
   transform: scale(1.1);
 }
@@ -289,7 +292,7 @@ h1 {
   justify-content: center;
   align-items: center;
   width: 100dvw;
-  
+
 }
 
 .lineContainer div {
