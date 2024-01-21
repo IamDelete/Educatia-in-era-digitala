@@ -12,7 +12,7 @@ body {
 
 p {
   font-family: "League Spartan";
-  font-size: 0.7vw;
+  font-size: 1.5rem;
   font-weight: 530;
 }
 
@@ -59,7 +59,7 @@ h1 {
 #headImg {
   width: 100vw;
   height: 100vh;
-  margin-top: -10rem;
+  margin-top: -5rem;
   filter: brightness(0.8) blur(2px);
 }
 
