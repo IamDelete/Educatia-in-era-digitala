@@ -52,7 +52,6 @@ let selectedBox = null;
           selectedBox = null;
         } else {
           // If the boxes are from the same column, show an error
-          alert('Incorrect!');
           // Reset selected boxes
           selectedBox.classList.remove('selected');
           selectedBox = null;
