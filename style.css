@@ -84,6 +84,7 @@ h1 {
   margin: auto;
   flex-direction: column;
   align-items: center;
+  padding-top: 20px;
 }
 
 #titleContainer h1 {
@@ -121,7 +122,7 @@ h1 {
   border-style: solid;
   border-width: 3px;
   border-radius: 20px;
-
+  margin-top: 0%;
 
   padding: 40px;
   line-height: 1.7;
@@ -154,7 +155,6 @@ h1 {
   padding-left: 10vw;
   padding-right: 10vw;
   padding-top: 40px;
-
   width: 50vw;
   height: 40vh;
 
@@ -162,5 +162,46 @@ h1 {
 
 .IntructionText {
   font-family: "League Spartan";
+  font-size: 70px;
+  margin-left: 40px;
+}
 
+.gallery-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.gallery {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+
+  width: 90vw;
+  height: max-content;
+  margin: 40px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+/* Keyframe animation for sliding */
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Class to trigger sliding animation */
+.sliding {
+  animation: slide 5s infinite alternate;
+  /* Adjust the duration as needed */
+}
+
+#pozaIcoana {
+  margin: 60px;
 }
