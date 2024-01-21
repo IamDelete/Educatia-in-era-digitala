@@ -1,3 +1,14 @@
+const correctAudio = document.getElementById('correctAudio');
+    const wrongAudio = document.getElementById('wrongAudio');
+    
+    function correctSfx() {
+      correctAudio.play();
+    }
+    
+    function wrongSfx() {
+      wrongAudio.play();
+    }
+
 let selectedBox = null;
     let correctConnections = ['1:b', '3:a', '2:d', '4:c'];
 
@@ -26,12 +37,14 @@ let selectedBox = null;
             clickedBox.classList.add('gameCorrect');
             selectedBox.classList.remove('gameIncorrect');
             clickedBox.classList.remove('gameIncorrect');
+            correctSfx();
           } else {
             // If the connection is incorrect, show an error
             selectedBox.classList.add('gameIncorrect');
             clickedBox.classList.add('gameIncorrect');
             selectedBox.classList.remove('gameCorrect');
             clickedBox.classList.remove('gameCorrect');
+            wrongSfx();
           }
 
           // Reset selected boxes

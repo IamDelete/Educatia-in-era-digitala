@@ -3,6 +3,7 @@
 
 <head>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="src/orthodox-cross.png">
   <title>Sfantul Iacob</title>
 </head>
 
@@ -21,10 +22,14 @@
     <img id="headImg" src="src\catedrala_imagine_fundal.jpg">
   </div>
 
-  <div id="temporar"
-    style="width: 100vw; box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;">
+  <div class="lineContainer" style="margin-top: -4rem;">
+    <div></div>
+  </div>
 
-    <h1 class=" IntructionText">Introducere</h1>
+  <div id="temporar"
+    style="width: 100vw;">
+
+    <h1 class=" IntructionText">&bullet;Introducere</h1>
     <div class=" doubleContainer">
 
       <div class=text_container>
@@ -57,7 +62,7 @@
         allowfullscreen class="Youtubevideo"></iframe>
     </div>
 
-    <h1 class=" IntructionText">Viata sa dupa inviere</h1>
+    <h1 class=" IntructionText">&bullet;Viata sa dupa inviere</h1>
     <div class="doubleContainer">
       <div class=text_container style="width:100%;">
 
@@ -85,6 +90,12 @@
 
     </div>
 
+    <h1 class=" IntructionText" style="margin-top: 8rem;">&bullet;Galerie</h1>
+
+    <div class="lineContainer" style="margin-top: 5rem;">
+      <div></div>
+    </div>
+
     <div class="gallery-container">
       <div class="gallery">
         <div class="gallery sliding"> <!-- Add the 'sliding' class here -->
@@ -106,6 +117,10 @@
 
         </div>
       </div>
+    </div>
+
+    <div class="lineContainer" style="margin-top: -1rem;">
+      <div></div>
     </div>
 
     <div id="gameTitleContainer">
@@ -131,6 +146,8 @@
         </div>
       </div>
     </div>
+    <audio id="correctAudio" volume="0.5" src="src/sfx/correct.mp3"></audio>
+    <audio id="wrongAudio" volume="0.5" src="src/sfx/wrong.mp3"></audio>
     </div>
     <script src="script/connectGame.js" defer></script>
 

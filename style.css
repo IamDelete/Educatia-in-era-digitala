@@ -62,7 +62,7 @@ h1 {
   width: 100vw;
   height: 100vh;
   margin-top: -5rem;
-  filter: brightness(0.8) blur(2px);
+  filter: brightness(0.8) blur(1px);
   transition: all 0s ease-in-out;
 }
 
@@ -223,7 +223,7 @@ h1 {
   align-items: center;
   width: 100dvw;
   height: 3rem;
-  margin-top: 20rem;
+  margin-top: 3rem;
 }
 
 #gameTitle {
@@ -282,4 +282,18 @@ h1 {
   color:#FEFAE0;
   opacity: 1;
   transform: scale(1.1);
+}
+
+.lineContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100dvw;
+  
+}
+
+.lineContainer div {
+  width: 90dvw;
+  height: 2px;
+  background-color: #DDA15E;
 }
