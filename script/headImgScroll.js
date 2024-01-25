@@ -9,7 +9,7 @@ window.addEventListener('scroll', () => {
   const scrollTop = document.documentElement.scrollTop;
   const maxScroll = document.documentElement.scrollHeight - document.documentElement.clientHeight;
   const scrollPercentage = scrollTop / maxScroll;
-  const translateY = scrollPercentage * 100;
+  const translateY = scrollPercentage * 180;
   image.style.transform = `translateY(${translateY}%)`;
 
 });

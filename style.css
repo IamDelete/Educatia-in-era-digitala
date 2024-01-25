@@ -193,11 +193,13 @@ h1 {
 }
 
 .gallery-container {
-  overflow: hidden;
+
   width: 100%;
+  margin-left: -55rem;
 }
 
 .gallery {
+  
   display: flex;
   transition: transform 0.5s ease-in-out;
 
@@ -207,18 +209,19 @@ h1 {
 }
 
 .gallery img {
-  width: 100%;
-  height: auto;
+  width: 20vw;
+  height: 40vh;
+  padding: 20px;
 }
 
 /* Keyframe animation for sliding */
 @keyframes slide {
   0% {
-    transform: translateX(0);
+    transform: translateX(-50%);
   }
 
   100% {
-    transform: translateX(-100%);
+    transform: translateX(50%);
   }
 }
 
@@ -228,9 +231,6 @@ h1 {
   /* Adjust the duration as needed */
 }
 
-#pozaIcoana {
-  margin: 60px;
-}
 
 #gameContainer {
   margin-top: 1rem;
